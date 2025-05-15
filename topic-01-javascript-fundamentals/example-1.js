@@ -1,15 +1,10 @@
-x = 42;
+console.log("ES6 Feature Demo")
 
-function testScope() {
-  var PI = 3.14159;
-  x = [12,5];
+//s = f"the sum of {x} and {y} is {x+y} ,-- python "f-string"
 
-  if (true) {
-    //x = 2;
-    console.log(x); // ?
-  }
-  console.log(x); // ?
-}
+// "<html><body>Hello {{name}}!</><!html>"
 
-testScope();
-console.log(x)
+name = "Greg"
+greeting = `HEllo, ${name}!`
+console.log(greeting)
+
